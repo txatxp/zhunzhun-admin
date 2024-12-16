@@ -68,11 +68,11 @@ export default defineConfig(({ mode }: ConfigEnv): UserConfig => {
           // 导入 Element Plus函数，如：ElMessage, ElMessageBox 等
           ElementPlusResolver(),
         ],
-        eslintrc: {
-          enabled: false,
-          filepath: "./.eslintrc-auto-import.json",
-          globalsPropValue: true,
-        },
+        // eslintrc: {
+        //   enabled: false,
+        //   filepath: "./.eslintrc-auto-import.json",
+        //   globalsPropValue: true,
+        // },
         vueTemplate: true,
         // 导入函数类型声明文件路径 (false:关闭自动生成)
         dts: false,
