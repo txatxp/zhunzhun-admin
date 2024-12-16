@@ -20,8 +20,7 @@
   </el-card>
 </template>
 
-<script setup lang="ts">
-import DeptAPI from "@/api/system/dept";
+<script setup lang="ts">;
 const props = defineProps({
   modelValue: {
     type: [Number],
@@ -63,8 +62,6 @@ function handleNodeClick(data: { [key: string]: any }) {
 }
 
 onBeforeMount(() => {
-  DeptAPI.getOptions().then((data) => {
-    deptList.value = data;
-  });
+
 });
 </script>
