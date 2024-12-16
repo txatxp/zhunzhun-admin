@@ -13,7 +13,6 @@
     "lint:prettier": "prettier --write \"**/*.{js,cjs,ts,json,tsx,css,less,scss,vue,html,md}\"",
     "lint:stylelint": "stylelint  \"**/*.{css,scss,vue}\" --fix",
     "lint:lint-staged": "lint-staged",
-    "preinstall": "npx only-allow pnpm",
     "prepare": "husky",
     "commit": "git-cz"
   },
